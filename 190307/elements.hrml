@@ -1,0 +1,12 @@
+<!doctype hrml>
+<html>
+ <head>
+   <meta charset="utf-8"/>
+   <title>제목</title>
+  </head>
+  <body>
+   <p>r공공데이터 포털이동은<a href="http:www.data.go.kr">여기</a>를 클릭하세요!<p>
+   <p>이 html 문서에서 사용된 엘리먼트는 <br/>&lt;!doctype html&gt;,&lt;html&gt;,&lt;head&gt;,&lt;meta&gt;,<br/>&lt;title&gt;,&lt;body&gt;
+   ,&lt;p&gt;,&lt;a&gt;총 8개이다</p>
+  </body>
+ </html>
