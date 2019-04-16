@@ -1,0 +1,101 @@
+<!doctype html>     <!--   doubleSelect.html   -->
+<html lang="ko">
+<head>
+ <meta  charset = " utf-8 "/>
+ <meta name="viewport" content="width=device-width, initial-scale=1"/>
+ <title>음식점 예약 화면</title>
+ 
+<script language = "javascript"> 
+function showSub(obj) {
+
+    f = document.forms.select_machine;
+
+    if(obj == 1) {
+    
+        f.SUB1.style.display = "";
+        
+        f.SUB2.style.display = "none";
+        
+        f.SUB3.style.display = "none";
+        
+        f.SUB4.style.display = "none";
+       
+
+    } 
+    else if(obj == 2){
+
+        f.SUB1.style.display = "none";
+       
+        f.SUB2.style.display = "";
+        
+        f.SUB3.style.display = "none";
+        
+        f.SUB4.style.display = "none";
+      
+     }
+     else if(obj == 3){
+      
+      	f.SUB1.style.display = "none";
+       
+        f.SUB2.style.display = "none";
+        
+        f.SUB3.style.display = "";
+        
+        f.SUB4.style.display = "none";
+     }
+     else{
+      
+      	f.SUB1.style.display = "none";
+       
+        f.SUB2.style.display = "none";
+        
+        f.SUB3.style.display = "none";
+        
+        f.SUB4.style.display = "";
+     }
+}
+</script>
+</head>
+
+<body>
+
+
+<form name="select_machine">
+
+
+<select name=" " onChange="showSub(this.options[this.selectedIndex].value);"> 
+<option value="1">한식</option> 
+<option value="2">양식</option> 
+<option value="3">일식</option> 
+<option value="4">중식</option> 
+</select>
+
+<br><br>
+
+<select name="SUB1" style="display: ;">
+<option value=" ">불고기</option>
+<option value=" ">된장찌개</option>
+<option value=" ">비빔밥</option>
+</select>
+
+<select name="SUB2" style="display: none;">
+<option value=" ">스시</option>
+<option value=" ">라멘</option>
+<option value=" ">규동</option>
+</select>
+
+<select name="SUB3" style="display: none;">
+<option value=" ">돈가스</option>
+<option value=" ">스테이크</option>
+<option value=" ">스파게티</option>
+</select>
+
+<select name="SUB4" style="display: none;">
+<option value=" ">짜장면</option>
+<option value=" ">짬봉</option>
+<option value=" ">탕수육</option>
+</select>
+
+</form>
+</body>
+</html>
