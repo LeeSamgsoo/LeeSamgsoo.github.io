@@ -5,20 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CSS 텍스트 실습</title>
 <style>
+*{padding:20px; margin:20px;}
 p{text-align:justify;}
-.bdcolor{border:1px solid blue;}
-header{float:top; border:solid 2px gray; margin:20px 0 0 0;}
+.bdcolor{border: solid blue;}
+.size25{width:15%;}
+.size50{width:35%;}
+header{float:top;}
 nav{float:left;}
-aside{float:right;}
-contents{float:inherit;}
-footer{clear:both; height:50px;}
+aside{float:left;}
+contents{float:left; margin:5px;}
+footer{clear:both; }
 </style>
 </head>
 <body>
-<header>Header</header>
-<nav class="bdcolor">Nav<br/>(Menu)</nav>
-<contents class="bdcolor">Contents</contents>
-<aside class="bdcolor">Aside<br/>(Banner)</aside>
+<header class="bdcolor">Header</header>
+<nav class="bdcolor size25">Nav<br/>(Menu)</nav>
+<contents class="bdcolor size50">Contents</contents>
+<aside class="bdcolor size25">Aside<br/>(Banner)</aside>
 <footer class="bdcolor">Footer</footer>
 </body>
 </html>
