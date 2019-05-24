@@ -6,17 +6,16 @@ body {font-family:Verdana, sans-serif; font-size:0.8em;}
 header, nav, section, article, footer{border:1px solid gray; margin:5px; padding:8px;}
 section#displayArea{height:210px;}
 nav ul{margin:0; padding:0;}
+#id_form{width:100px; height:14px; color:red;}
 nav ul li{display:inline; margin 5px;}
 a{text-decoration:none;}
-#id_form{width:100px; height:14px; color:red;}
 </style>
 <script>
 window.onload=function(){
-document.getElementById("button1").addEventListener('click', function(){
-	document.getElementByTagName("h4")[0].innerHTML="javascript방법4수동실행!";
+document.getElementById("button1").addEventListener("click", function(){
+		document.getElementsByTagName("h4")[0].innerHTML="javascript방법4수동실행!";
 	});
-}
-</script>
+  }</script>
 <title>자바스크립트실습</title>
 </head>
 <body>
