@@ -5,8 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CSS 텍스트 실습</title>
 <style>
-body {width:1200px; background-color: beige;}
-*{padding:20px; margin:10px; text-align:center;}
+*{padding:20px; margin:15px; text-align:center;}
 .bdcolor{border: solid skyblue;}
 [ class*="col-" ] { width: 100%; }
 .col-1 { width: 8.33%; }
@@ -24,17 +23,32 @@ body {width:1200px; background-color: beige;}
 header{float:top;}
 nav{float:left;}
 aside{float:left;}
-contents{float:left;}
+content{float:left; clear: both; }
 footer{clear:both; }
+body { width: 1200px; background-color: beige; }
+a { display:inline; padding: 0px; }
+h3, h4 { color: skyblue; font-style: italic; display: inline; float: left; padding: 0px; }
 </style>
 </head>
 <body>
-<header class="bdcolor col-10"><h3>PORTFOLIO</h3><h4>이상수</h4></header>
-<nav class="bdcolor col-3">C++</nav>
-<contents class="bdcolor col-3">자료구조</contents>
+<header class="col-10"><h3>PORTFOLIO</h3><br/><h4>이상수</h4></header>
+<content class="bdcolor col-6">
+<a href="https://leesamgsoo.github.io/portfolio/portfolio.gongmo.html">공모전</a>
+</content>
 <aside class="bdcolor col-3">
-  <a href="https://leesamgsoo.github.io/index.html">인터넷 프로그래밍</a>  
+  인터넷 프로그래밍<br/>
+  <a href="https://leesamgsoo.github.io/index.html#week01">1주차</a><br/>
+  <a href="https://leesamgsoo.github.io/index.html#week02">2주차</a><br/>
+  <a href="https://leesamgsoo.github.io/index.html#week03">3주차</a><br/>
+  <a href="https://leesamgsoo.github.io/index.html#week04">4주차</a><br/>
+  <a href="https://leesamgsoo.github.io/index.html#week05">5주차</a><br/>
+  <a href="https://leesamgsoo.github.io/index.html#week06">6주차</a><br/>
+  <a href="https://leesamgsoo.github.io/index.html#week07">7주차</a><br/>
+  <a href="https://leesamgsoo.github.io/index.html#week09">9주차</a><br/>
+  <a href="https://leesamgsoo.github.io/index.html#week10">10주차</a><br/>
+  <a href="https://leesamgsoo.github.io/index.html#week11">11주차</a><br/>
+  <a href="https://leesamgsoo.github.io/index.html#week12">12주차</a><br/>
 </aside>
-<footer class="bdcolor col-10">자격증 공모전</footer>
+<footer class="bdcolor col-10"></footer>
 </body>
 </html>
