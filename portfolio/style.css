@@ -1,6 +1,5 @@
 @charset "utf-8"
 
- body {width:1200px; background-color: beige;}
 *{padding:20px; margin:15px; text-align:center;}
 .bdcolor{border: solid skyblue;}
 [ class*="col-" ] { width: 100%; }
@@ -21,3 +20,5 @@ nav{float:left;}
 aside{float:left;}
 content{float:left;}
 footer{clear:both; }
+body { width: 1200px; background-color: beige; }
+a { display:inline; padding: 0px; }
